@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+  list-style-type: none; 
+  padding: 0;
+}
+
+li {
+  flex: auto;
+}
+
+@media (max-width: 991px) {
+  ul {
+    flex-wrap: wrap;
+  }
+  
+  li {
+    flex-basis: 50%;
+  }
+}
